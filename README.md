@@ -15,11 +15,11 @@ Feel free to to use, as didn't create nuget services to pump data, need to add s
 A customizable log4net, reuseable on all services and controller on whole system.
 An also automatically log system logging level, whenever system run error with customizable information log in "log4net.config(xml)"
 
-  +--- _Log4net
-   |
-   +-- LogBuilder.cs (Initialize log4net and custom log level function)
-   +-- Logger.cs (Custom and log level)
-   +-- LogProvider.cs (After initialize, getting references and log detail from config file)
+  +--- _Log4net  
+     |  
+     +-- LogBuilder.cs (Initialize log4net and custom log level function)  
+     +-- Logger.cs (Custom and log level)  
+     +-- LogProvider.cs (After initialize, getting references and log detail from config file)  
    
 - System level log,
 - Startup log level,
