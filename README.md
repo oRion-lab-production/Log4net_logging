@@ -4,12 +4,12 @@ Customize-able Log4net, using .net core 6
 Feel free to to use, as didn't create nuget services to pump data, need to add source code into the project.
 
 +----- Log4net_logging  
-  |
-  +--- Web
-  |
-  +--- Structure
-    |
-    +- Log4net
+  |  
+  +--- Web  
+  |  
+  +--- Structure  
+    |  
+    +- Log4net  
     
     
 A customizable log4net, reuseable on all services and controller on whole system.
