@@ -37,8 +37,9 @@ An also automatically log system logging level, whenever system run error with c
 - DEMO -
 +-- Program.cs
  | Code (iniitialize in Program.cs)
+```
 app.Services.GetRequiredService<ILoggerFactory>().AddLog4net("log4net.config", "log4net"); // ....AddLog4net("__Config File Name__", "log4net")
-
+```
 +-- HomeController.cs
  | Sample Code
   
